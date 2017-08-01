@@ -11,6 +11,7 @@ import java.util.Locale;
  */
 
 public class TimeUtils {
+
     static StringBuilder mFormatBuilder = new StringBuilder();
     static Formatter mFormatter = new Formatter(mFormatBuilder, Locale.getDefault());
     static long SECONDS_OF_MINUTE = 60;
